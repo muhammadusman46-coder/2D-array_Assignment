@@ -12,7 +12,6 @@ public class Arr {
 
         double[][] matrix = new double[rows][cols];
 
-        // Input matrix
         System.out.println("Enter the elements of the matrix:");
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
@@ -42,7 +41,7 @@ public class Arr {
         // Column sums
         System.out.println("\nColumn sums:");
         for (int j = 0; j < cols; j++) {
-            double colSum = 0.0; // must reset for each column
+            double colSum = 0.0; 
             for (int i = 0; i < rows; i++) {
                 colSum += matrix[i][j];
             }
