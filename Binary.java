@@ -57,16 +57,16 @@ public class Binary {
             binaryStr = remainder + binaryStr;
             temp /= 2;
         }
-        System.out.println("Part A - Binary = " + binaryStr);
+        System.out.println("Part A  Binary = " + binaryStr);
 
         // Part B: using user-defined function 
         int[] binaryArray = toBinaryArray(n);
-        System.out.println("Part B - Binary array = " + Arrays.toString(binaryArray));
+        System.out.println("Part B  Binary array = " + Arrays.toString(binaryArray));
 
         // Part C: using user-defined function that returns String
         String binaryStringFromFunction = toBinaryString(n);
-        System.out.println("Part C - Binary string = " + binaryStringFromFunction);
+        System.out.println("Part C  Binary string = " + binaryStringFromFunction);
 
-        sc.close();
+    
     }
 }
